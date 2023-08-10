@@ -1,0 +1,135 @@
+PODS:
+  - Flutter (1.0.0)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Stripe (23.3.4):
+    - StripeApplePay (= 23.3.4)
+    - StripeCore (= 23.3.4)
+    - StripePayments (= 23.3.4)
+    - StripePaymentsUI (= 23.3.4)
+    - StripeUICore (= 23.3.4)
+  - stripe_ios (0.0.1):
+    - Flutter
+    - Stripe (~> 23.3.3)
+    - StripeApplePay (~> 23.3.3)
+    - StripeFinancialConnections (~> 23.3.3)
+    - StripePayments (~> 23.3.3)
+    - StripePaymentSheet (~> 23.3.3)
+    - StripePaymentsUI (~> 23.3.3)
+  - StripeApplePay (23.3.4):
+    - StripeCore (= 23.3.4)
+  - StripeCore (23.3.4)
+  - StripeFinancialConnections (23.3.4):
+    - StripeCore (= 23.3.4)
+    - StripeUICore (= 23.3.4)
+  - StripePayments (23.3.4):
+    - StripeCore (= 23.3.4)
+    - StripePayments/Stripe3DS2 (= 23.3.4)
+  - StripePayments/Stripe3DS2 (23.3.4):
+    - StripeCore (= 23.3.4)
+  - StripePaymentSheet (23.3.4):
+    - StripeApplePay (= 23.3.4)
+    - StripeCore (= 23.3.4)
+    - StripePayments (= 23.3.4)
+    - StripePaymentsUI (= 23.3.4)
+  - StripePaymentsUI (23.3.4):
+    - StripeCore (= 23.3.4)
+    - StripePayments (= 23.3.4)
+    - StripeUICore (= 23.3.4)
+  - StripeUICore (23.3.4):
+    - StripeCore (= 23.3.4)
+  - Toast (4.0.0)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripeFinancialConnections
+    - StripePayments
+    - StripePaymentSheet
+    - StripePaymentsUI
+    - StripeUICore
+    - Toast
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  fluttertoast: eb263d302cc92e04176c053d2385237e9f43fad0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
+  shared_preferences_foundation: 986fc17f3d3251412d18b0265f9c64113a8c2472
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Stripe: 7393b16fe555d4a68e6555044e7b57eff11ae547
+  stripe_ios: 1be2c6f10dcf1e33c14625ad02099e0ff3cfe6d8
+  StripeApplePay: 174b09c0211134417e340c68af199a3dd34f3cd6
+  StripeCore: babb08ec2b961f7cde8663dad3b4cbb77e0ae63b
+  StripeFinancialConnections: 484096f2dc5d3c20cc24a5ad4d261953ba806ef0
+  StripePayments: 71bf62ccdacefc4b68b46a02a7f2492aeba252b3
+  StripePaymentSheet: 722ea7bea092c243d771122fe3572a9c84512704
+  StripePaymentsUI: fd08081c4be73c16322dc76a1878140520a9df2e
+  StripeUICore: ed68cbd5ad0626e0760e772f8c82d96cae9b829b
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+  video_player_avfoundation: e489aac24ef5cf7af82702979ed16f2a5ef84cff
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: da9ad431aad9d66ae1bbae2796d67d23aa2b65ba
+
+COCOAPODS: 1.11.3
